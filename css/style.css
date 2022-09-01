@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background: #283842;
+}
+ul,li{
+    list-style: none;
+}
+a{
+     text-decoration: none;
+     
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+nav .main{
+    display: flex;
+}
+
+nav .main .logo{
+    width: 25%;
+}
+
+nav .main .item{
+    width: 75%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+   
+}
+nav .main .item ul li a{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    position: relative;
+   
+
+}
+nav .main .item ul li a:hover{
+    color:#00aeef;
+}
+
+
+
+nav .main .item ul li i{
+    color:#fff;
+    top:0;
+    right: -6px;
+    position: relative; 
+    transform: rotate(0deg);
+    transition: .4s;
+}
+nav .main .item ul li:hover i{
+    transform: rotate(180deg);
+}
+nav .main .item span{
+    display: inline-block;
+    top: 44px;
+    right: 300px;
+    position: absolute;
+    color: #fff
+}
+nav .main .item .dropdown{
+    margin-top: 20px;
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    transform: translateX(-20%)rotatey(90deg);
+    transition: .4s;
+}
+nav .main .item ul li:hover .dropdown{
+    transform: translateX(-20%)rotatey(0deg);
+}
+nav .main .item ul li .dropdown ul li{
+    color:#222;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin: 10px 20px;
+}
+nav .main .item ul li .dropdown ul li a{
+color:#000;
+}
+nav .main .item ul li .dropdown ul {
+    flex-direction:column;
+    padding-bottom: 15px;
+}
+.banner{
+    background: url(../images/bg\ 1.jpg) no-repeat center;
+    background-size:cover; 
+    
+}
+.banner .laiar{
+    background: rgba(0, 0, 0,0.5);
+}
+.banner .laiar .box{
+    padding-top: 266px;
+    padding-bottom:200px ;
+    text-align: center;
+}
+.banner .laiar .box h1{
+        color: #fff;
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        width: 750px;
+        margin-left: 300px;
+        margin-bottom: 25px;
+}
+.banner .laiar .box .bottun a{
+    display: inline-block;
+    padding: 10px 20px;
+    transition: .4s;
+    color: #fff;
+}
+.banner .laiar .box .bottun a:first-child{
+    background: #00aeef;
+}
+.banner .laiar .box .bottun a:last-child{
+    border: 1px solid #fff;
+}
+.banner .laiar .box .bottun a:hover{
+    background: #fff;
+    color:#00aeef;
+}
+
+.visit-part{
+    margin-top: 50px;
+   
+}
+.visitimg{
+    display: flex;
+    justify-content: center;
+}
+.visit-part .visitimg .plan a{
+display: inline-block;
+color: rgb(255, 255, 255);
+padding: 205px 220px  20px 30px ;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+margin-right: 30px;
+background: url(../images/visit1.jpg)no-repeat center;
+background-size: cover;
+}
+
+
+.visit-part .visitimg .study a{
+display: inline-block;
+color: #fff;
+padding: 205px 220px  20px 30px ;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: url(../images/visit-2.jpg)no-repeat center;
+background-size: cover;
+}
+.visit-part .visitimg .admissions a{
+display: inline-block;
+color: #fff;
+padding: 205px 220px  20px 30px ;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+margin-left: 30px;
+background: url(../images/visit3.jpg)no-repeat center;
+background-size: cover;
+
+}
+.feautures-part h1{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+.feautures-part h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: #777;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.feautures-part .info{
+display: flex;
+margin-top: 80px;
+
+}
+
+.feautures-part .lInfo{
+    width: 50%;
+    justify-content: center;
+    
+}
+.feautures-part .lInfo .carBox{
+position: relative;
+margin-bottom: 50px;
+}
+.feautures-part .lInfo .carBox i{
+    position: absolute;
+    font-size: 40px;
+    top:0px;
+    left:0px;
+    color:#622960;
+}
+
+.feautures-part .lInfo .carBox h2{
+   margin-left: 70px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color:#222
+    
+}
+.feautures-part .lInfo .carBox p{
+    margin-left:70px ;
+    color:#444;
+    font-size: 18px;
+    line-height: 20px;
+    width: 500px;
+}
+
+.feautures-part .rInfo{
+    width: 50%;
+   
+}
+.feautures-part .rInfo .carBox{
+    position: relative;
+    margin-bottom: 50px;
+    }
+    .feautures-part .rInfo .carBox i{
+        position: absolute;
+        font-size: 40px;
+        top:0px;
+        left:0px;
+        color:#622960;
+    }
+    
+    .feautures-part .rInfo .carBox h2{
+       margin-left: 70px;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color:#222
+        
+    }
+    .feautures-part .rInfo .carBox p{
+        margin-left:70px ;
+        color:#444;
+        font-size: 18px;
+        line-height: 20px;
+        width: 500px;
+    }
+    
+    .focus-part h1{
+        margin-top: 60px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 34px;
+    }
+    .focus-part h3{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 22px;
+        color: #777;
+        line-height: 1.2;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-bottom: 80px;
+    }
+
+    .focus-part .focus-main{
+        display: flex;
+    }
+    .focus-part .focus-main .item{
+        width: 33%;  
+    }
+    .focus-part .focus-main .item .box1{
+        padding-bottom: 230px;
+    }
+    
+
+    .focus-part .focus-main h2{
+        font-size: 18px;
+        color: #222;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    .focus-part .focus-main p{
+        font-size: 14px;
+        line-height: 20px;
+        color:#444;
+        margin-top: 20px;
+    }
+    .focus-part .focus-main .image{
+        width: 33%;
+    }
+    .focus-part .focus-main .info{
+        width: 33%; 
+    }
+    .focus-part .focus-main .info .box3{
+        padding-bottom: 230px;
+    }
+
+    .subscribe{
+        text-align: center;
+    }
+    .subscribe h1{
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .subscribe input{
+        width: 420px;
+        height: 50px;
+        border: 2px solid rgb(224, 221, 221);
+        font-size: 20px;
+    }
+    .subscribe button{
+        padding: 20px 30px;
+        background: #00aeef;
+        color:#fff;
+        border: none;
+        transition: .4s;
+    }
+    .subscribe button:hover{
+        background: #000;
+    }
+    .about-part{
+        background: #283842;
+        margin-top: 80px;
+        
+    }
+   .about-item{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+   }
+   .about-part .about-item .logo{
+    margin-right: 100px;
+   }
+    .about-part .about{
+       
+        margin-right: 100px;
+    }
+    .about-part li{
+      display: flow-root;
+      color:rgba(255, 255, 255,.6);
+      transition: .4s;
+      line-height: 30px;
+   
+    }
+    .about-part ul,li:hover{
+        color:#fff;
+    }
+    .about-part h2{
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .about-part h2::after{
+        width: 200px;
+        border: 1px solid rgba(255, 255, 255,.4);
+        position: absolute;
+        top: 35px;;
+        left: 0;
+        content: "";
+    }
+    .about-part .contact{
+        
+        margin-left: 100px;
+    }
+
+
